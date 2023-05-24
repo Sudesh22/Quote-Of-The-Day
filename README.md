@@ -1,6 +1,6 @@
 # Quote-Of-The-Day-API
 
-This is an API made to serve as a resource for another project to be made in future. The API is built using Fast API which is a modern, fast (high-performance), web framework for building APIs.
+This is an API made to serve as a resource for another project to be made in future. The API is built using Fast API which is a modern, fast (high-performance), web framework for building APIs. I have used the csv file from [here](https://github.com/akhiltak/inspirational-quotes/blob/master/Quotes.csv)
 
 ## Importing Libraries
 We import all the required libraries for this project. `Linecache` is a module that allows one to get any line from a Python source file. It is used here to extract a line from the csv file. The `random` modeule is used to generate a random integer which will be used to select a random line number from the csv file. The `FastAPI` module is used to create an API.
